@@ -6,9 +6,9 @@ export TF_STATE_OBJECT_KEY="serverless-jenkins-eric.tfstate" # update your detai
 export TF_LOCK_DB="eric-lock-DB" # update your details
 export AWS_REGION="ap-southeast-1" # update your details
 
-PRIVATE_SUBNETS='["subnet-03c90a99e121ee5dc", "subnet-07aeb417b79e43dd2"]' # update your details
-PUBLIC_SUBNETS='["subnet-0ec38a7279ff0776f", "subnet-037f86b9d46bafca0"]' # update your details
-VPC_ID="vpc-097e92b9b810a18de" # update your details
+PRIVATE_SUBNETS='["subnet-0e1f40b9dccd6cb9e", "subnet-04cb04ada9b8b5542"]' # update your details
+PUBLIC_SUBNETS='["subnet-07b0b0052f27b0392", "subnet-0634bad88e263ba4e"]' # update your details
+VPC_ID="vpc-01fe0a8b19766ddf4" # update your details
 
 export TF_VAR_route53_create_alias="false"
 export TF_VAR_route53_zone_id="Z09415593QJ4O9LKNJU1N" # update your details
